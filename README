@@ -6,3 +6,9 @@ the command line argument.
 This function runs at O(n) where n is the string length. Since strings are character
 arrays in c and arrays in c do not track their length, I could not think of a more
 efficient way to do this. 
+
+input = "abcdefghijklmnopqrstuvwxyz"
+return value = 26
+
+input = "hello"
+return value = 5
