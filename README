@@ -1,0 +1,8 @@
+This function counts string length using no pre defined functions. To test this code,
+paste it into gdb online and select the c option. Then set the command line arguments
+to ./strLength "placeholder" where placeholder is any string you would like to test.
+Running this function shall then print and return the length of the string from
+the command line argument.
+This function runs at O(n) where n is the string length. Since strings are character
+arrays in c and arrays in c do not track their length, I could not think of a more
+efficient way to do this. 
